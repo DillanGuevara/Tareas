@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de tareas</title>
+    <script src="https://kit.fontawesome.com/f5ffacda22.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <center>
+        <div class="container">
+            <div class="tareas">
+                <h1>Lista de tareas</h1>
+                <input type="text" class="tarea"> <br/><br/>
+                <div class="agregar">
+                    <button class="button">Agregar</button>
+                </div>
+            <div class="pendiente">
+            </div>
+        </div>
+    </center>
+
+    <template>
+        <div class="alert alerta-tarea-pendiente">
+            <p class="tarea-agregada">
+                <div class="icons">
+                    <a href=""><i class="fa-solid fa-check"></i></a>
+                    <a href=""><i class="fa-solid fa-minus"></i></a>
+                </div>
+            </p>
+        </div>
+    </template>
+
+    <script src="app.js"></script>
+</body>
+</html>
